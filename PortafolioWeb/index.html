@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | Tu Nombre</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="encabezado">
+    <a href="#inicio" class="logo">Camila Marquez</a>
+    <nav>
+      <ul class="menu">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="inicio" class="presentacion">
+      <div class="presentacion-texto">
+        <h1>Hola, soy Camila Videri </h1>
+        <p class="rol">TSU Desarrollo De Software MultiPlataforma</p>
+        <p>
+          Me gusta crear mis propias ideas y proyectos, aprender cosas nuevas y mejorar un poco cada día. 
+          Mi objetivo profesional es convertirme en desarrolladora web full stack y crear proyectos que ayuden a las personas y a los negocios de mi comunidad. 
+        </p>
+        <a href="#contacto" class="boton">Escríbeme</a>
+      </div>
+
+      <div class="avatar">
+        <img src="IMG-20260308-WA0022.jpg" alt="CVMG">
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="seccion">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy estudiante de TSU Desarrollo De Software MultiPlataforma y me apasiona la creación de sitios web y aplicaciones que
+        resuelvan problemas reales. Disfruto aprender cosas nuevas, resolver errores de
+        código y mejorar un poco cada día. Mi objetivo profesional es convertirme en
+        desarrolladora web full stack, trabajar en equipo y crear proyectos que ayuden a
+        las personas y a los negocios de mi comunidad.
+      </p>
+    </section>
+
+    <section id="habilidades" class="seccion">
+      <h2>Habilidades</h2>
+      <ul class="habilidades">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>C# y .NET MAUI</li>
+        <li>Git y GitHub</li>
+        <li>Visual Studio Code</li>
+         <li>Visual Studio</li>
+      </ul>
+    </section>
+
+    <section id="proyectos" class="seccion">
+  <h2>Proyectos</h2>
+
+  <div class="proyectos">
+    <article class="proyecto">
+      <h3>Lucha Store</h3>
+      <p>
+        Tienda en línea de máscaras y mercancía de luchadores de lucha libre.
+        Incluye catálogo de productos y un diseño inspirado en los colores del ring.
+      </p>
+      <p class="tecnologias">HTML · CSS</p>
+    </article>
+
+    <article class="proyecto">
+      <h3>Students Registry</h3>
+      <p>
+        Registro de estudiantes donde se capturan datos en un formulario y se
+        muestran en una lista, usando JavaScript para manejar la información.
+      </p>
+      <p class="tecnologias">HTML · CSS · JavaScript</p>
+    </article>
+
+    <article class="proyecto">
+      <h3>Sake and Roll</h3>
+      <p>
+        Página para un restaurante de comida japonesa con menú de ramen, sushi y
+        gyozas, pensada para verse bien en computadora y en celular.
+      </p>
+      <p class="tecnologias">HTML · CSS</p>
+    </article>
+
+    <article class="proyecto">
+      <h3>Impresiones UTS</h3>
+      <p>
+        Aplicación de escritorio para solicitar impresiones remotas en la biblioteca
+        universitaria, con selección de tipo de impresión, precios,
+        horario de recogida y pago en línea.
+      </p>
+      <p class="tecnologias">C# · Windows Forms</p>
+    </article>
+  </div>
+</section>
+
+    <section id="contacto" class="seccion">
+      <h2>Contactame</h2>
+      <p>¿Tienes una idea o quieres trabajar conmigo? Déjame un mensaje.</p>
+
+      <form id="formulario" class="formulario">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí" required></textarea>
+
+        <button type="submit" class="boton">Enviar mensaje</button>
+        <p id="respuesta" class="respuesta" role="status"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <p>&copy; 2026 Camila Videri Marquez Garcia · TSU Desarrollo De Software MultiPlataforma</p>
+    <ul class="redes">
+      <li><a href="https://github.com/KamMarquez" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="mailto:camila.videri@gmail.com">camila.videri@gmail.com</a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
